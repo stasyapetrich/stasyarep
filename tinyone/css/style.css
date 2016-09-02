@@ -161,6 +161,14 @@ header {
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
+    display: table;
+    text-align: center;
+}
+
+.get-start > span {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .scroll {
@@ -311,8 +319,151 @@ header {
 .center-align-h, .center-align-p {
     text-align: center;
     width: 172px !important;
+    height: 38px !important; 
 }
 
 .center-align-p {
     font-size: 14px;
 }
+
+.price-txt {
+    width: 172px;
+    height: 28px;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.price-txt:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #010101;
+    display: block;
+    left: 62px;
+    top: 42px;
+}
+
+.price-btn {
+    width: 140px;
+    height: 47px;
+    margin: auto;
+    background: white;
+    border: 2px solid #010101;
+    display: table;
+    text-decoration: none;
+    text-align: center;
+}
+
+.txt-btn-price {
+    vertical-align: middle;
+    display: table-cell;
+    height: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.portfolio-grid {
+    width: 100%;
+    height: 800px;
+    margin-bottom: 112px;
+}
+
+.portfolio {
+    height: 640px;
+    width: 100%;
+}
+
+.portfolio-row {
+    height: 290px;
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.portfolio-element {
+    width: 220px;
+    height: 290px;
+    margin-right: 10px;
+    float: left;
+}
+
+.portfolio-element:nth-element(4n) {
+    margin-right: 0;
+}
+
+.img-port {
+    width: 220px;
+    height: 220px;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+.img-port > img {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+}
+
+.img-port > span {
+    position: absolute;
+}
+
+.look-eye {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin: 190px 10px 10px 10px;
+}
+
+.look-eye > span {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.look {
+    width: 21px;
+    height: 20px;
+    position: relative;
+    bottom: 3px;
+    left: 2px;
+}
+
+.time-port {
+    width: 51px;
+    height: 13px;    
+    position: relative;
+    right: 2px;
+    bottom: 5px;
+    margin-left: 75px;
+}
+
+.eye, .clock {
+    position: relative;
+}
+
+.port-head-center {
+    width: 196px;
+    height: 21px;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+}
+
+.port-txt-center {
+    width: 176px;
+    height: 15px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
