@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "SourceSansProRegular";
+    src: url("../fonts/SourceSansProRegular/SourceSansProRegular.eot");
+    src: url("../fonts/SourceSansProRegular/SourceSansProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SourceSansProRegular/SourceSansProRegular.woff") format("woff"),
+    url("../fonts/SourceSansProRegular/SourceSansProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SourceSansProLight";
+    src: url("../fonts/SourceSansProLight/SourceSansProLight.eot");
+    src: url("../fonts/SourceSansProLight/SourceSansProLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SourceSansProLight/SourceSansProLight.woff") format("woff"),
+    url("../fonts/SourceSansProLight/SourceSansProLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SourceSansProBold";
+    src: url("../fonts/SourceSansProBold/SourceSansProBold.eot");
+    src: url("../fonts/SourceSansProBold/SourceSansProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SourceSansProBold/SourceSansProBold.woff") format("woff"),
+    url("../fonts/SourceSansProBold/SourceSansProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'SourceSansProRegular', sans-serif, Arial;
+}
+
+body a {
+    color: #222;
+}
+
+header {
+    width: 100%;
+    height: 860px;
+    background: #fcdb00;
+    color: #222;
+}
+
+.content-width {
+    height: 860px;
+    width: 940px;
+    margin: auto;
+}
+
+.top-header{
+    width: 940px;
+    height: 50px;
+    padding-top: 35px;
+}
+
+.top-header > div {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+.menu {
+    width: 19px;
+    height: 16px;
+    margin-right: 358px;
+}
+
+.menu-img {
+    display: block;
+    width: 19px;
+    height: 16px;
+    text-decoration: none;
+}
+
+
+.logo-block {
+    width: 160px;
+    height: 43px;
+    margin-right: 259px;
+}
+
+.logo {
+    width: 160px;
+    height: 43px;
+    text-decoration: none;
+}
+
+.logo img, .logo-txt {
+    float: left;
+}
+
+.logo-txt {
+    width: 101px;
+    height: 28px;
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.social-content {
+    width: 135px;
+    height: 30px;
+}
+
+.social-content > a {
+    margin-right: 15px;
+}
+
+.social-content > a:last-child {
+    margin-right: 0;
+}
+
+.cover {
+    width: 502px;
+    height: 450px;
+    margin: auto;
+    margin-top: 155px;
+}
+
+.txt-content {
+    width: 502px;
+    height: 138px;
+    margin-bottom: 48px;
+}
+
+.main-txt {
+    text-align: center;
+    width: 502px;
+    height: 45px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sub-header {
+    width: 502px;
+    height: 67px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn-head-block {
+    width: 256px;
+    height: 56px;
+    margin: auto;
+    margin-bottom: 180px;
+}
+
+.get-start {
+    width: 256px;
+    height: 56px;
+    background: #fcdb00;
+    border: 2px solid black;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.scroll {
+    width: 14px;
+    height: 32px;
+    margin: auto;
+}
