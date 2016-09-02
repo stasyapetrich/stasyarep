@@ -40,13 +40,16 @@ body a {
 
 header {
     width: 100%;
-    height: 860px;
+    height: 100vh;
     background: #fcdb00;
     color: #222;
 }
 
+.content-height {
+    height: 100vh;
+}
+
 .content-width {
-    height: 860px;
     width: 940px;
     margin: auto;
 }
@@ -119,13 +122,13 @@ header {
     width: 502px;
     height: 450px;
     margin: auto;
-    margin-top: 155px;
+    margin-top: 27vh;
 }
 
 .txt-content {
     width: 502px;
     height: 138px;
-    margin-bottom: 48px;
+    margin-bottom: 10vh;
 }
 
 .main-txt {
@@ -148,7 +151,6 @@ header {
     width: 256px;
     height: 56px;
     margin: auto;
-    margin-bottom: 180px;
 }
 
 .get-start {
@@ -162,7 +164,155 @@ header {
 }
 
 .scroll {
-    width: 14px;
+    width: 100%;
     height: 32px;
+    position: absolute;
+    left: 0;
+    bottom: 42px;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+}
+
+.featured-grid {
+    height: 500px;
+    width: 100%;
+    margin: 112px 0;
+}
+
+.content-head-txt{
+    width: 100%;
+    height: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.under-txt {
+    width: 714px;
+    height: 43px;
+    color: #898989;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 80px;
     margin: auto;
+}
+
+.features-block {
+    width: 100%;
+    height: 325px;
+}
+
+.feature-row:first-child {
+    margin-bottom: 80px;
+}
+
+.feature-row {
+    width: 100%;
+    height: 120px;
+}
+
+.feature-row > div {
+    display: inline-block;
+}
+
+.feature-element {
+    width: 275px;
+    height: 120px;
+    margin-right: 50px;
+}
+
+.feature-element:nth-child(3n) {
+    margin-right: 0;
+}
+
+.feature-element > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img-block {
+    width: 33px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+.txt-feature-block {
+    width: 200px;
+    height: 120px;
+}
+
+.block-row-header-txt {
+    width: 199px;
+    height: 21px;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.block-row-txt {
+    width: 199px;
+    height: 76px;
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pricing {
+    width: 100%;
+    height: 570px;
+    margin-bottom: 112px;
+}
+
+.table {
+    width: 700px;
+    height: 400px;
+    margin: auto;
+}
+
+.table> div {
+    display: inline-block;
+    margin-right: 57px;
+}
+
+.table > div:last-child {
+    margin-right: 0;
+}
+
+.column {
+    width: 172px;
+    height: 400px;
+}
+
+.img-circle {
+    width: 100px;
+    height: 100px;
+    background: #ebebeb;
+    border-radius: 100px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.black-circle {
+    background: #010101;
+}
+
+.circle-cont {
+    height: 38px;
+    width: 31px;
+    padding-top: 31px; 
+}
+
+.center-align-h, .center-align-p {
+    text-align: center;
+    width: 172px !important;
+}
+
+.center-align-p {
+    font-size: 14px;
 }
