@@ -182,12 +182,13 @@ header {
 
 .content {
     width: 100%;
+    padding-top: 100px;
 }
 
 .featured-grid {
     height: 500px;
     width: 100%;
-    margin: 112px 0;
+    margin-bottom: 112px;
 }
 
 .content-head-txt{
@@ -592,7 +593,7 @@ header {
 
 .testimonials {
     width: 100%;
-    height: 585px;
+    height: 611px;
     margin-bottom: 112px;
 }
 
@@ -600,7 +601,7 @@ header {
     height: 112px;
     width: 530px;
     margin: auto;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .stats > div {
@@ -614,13 +615,13 @@ header {
 
 .stat-block {
     width: 85px;
-    height: 112px;
+    height: 100px;
 }
 
 .stat-img {
     display: block;
     margin: auto;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .stat-number {
@@ -650,13 +651,12 @@ header {
 
 .customer-face {
     width: 130px;
-    height: 170px;
+    height: 159px;
     margin: auto;
 }
 
 .customer {
-    margin: auto;
-    padding-bottom: 10px;
+    padding-left: 14px;
 }
 
 .customer-say {
@@ -686,6 +686,7 @@ header {
     display: block;
     margin: 0 67px;
     text-align: center;
+    line-height: 24px;
 }
 
 .comment-txt:after {
@@ -698,4 +699,242 @@ header {
     position: absolute;
 }
 
+.contact {
+    width: 720px;
+    height: 768px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.contact-info {
+    height: 100px;
+    width: 605px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.contact-info > div {
+   display: inline-block;
+   margin-right: 64px;
+   float: left;
+}
+
+.contact-info > div:last-child {
+    margin-right: 0;
+}
+
+.info-block {
+    width: 159px;
+    height: 100px;
+}
+
+.info-img {
+    padding-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+
+.info-header {
+    width: 100%;
+    height: 18px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.info-block:first-child .info-header {
+    padding-bottom: 5px;
+}
+
+.info-txt {
+    width: 100%;
+    height: 29px;
+    color: #898989;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.contact-info-form {
+    height: 440px;
+    width: 480px;
+    margin: auto;
+}
+
+.info-form > label {
+    display: none;
+}
+
+.info-form > input[type='text'], textarea {
+    width: 480px; 
+    border: 1px solid #010101;
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+.email-form, .name-form {
+    height: 55px;
+}
+
+.message-area {
+    height: 187px;
+    padding-top: 20px;
+}
+
+.send-btn {
+    width: 170px;
+    height: 51px;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.subscribe {
+    width: 100%;
+    height: 394px;
+    background: black;
+}
+
+.sub-block {
+    width: 740px;
+    height: 188px;
+    margin: auto;
+    padding-top: 95px;
+} 
+
+.subs-header {
+    width: 100%;
+    height: 31px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.sub-under-txt {
+    width: 100%;
+    height: 43px;
+    color: #898989;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#submitform {
+    width: 100%;
+    height: 50px;
+}
+
+#submitform > input {
+    display: inline-block;
+}
+
+#submitform > label {
+    display: none;
+}
+
+
+.add-email {
+   width: 580px;
+    height: 50px;
+    background: white;
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 15px; 
+    margin-right: 2px;
+    border: none;
+}
+
+.submit-btn {
+    width: 135px;
+    height: 52px;
+    background: #fff;
+    color: #010101;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+}
+
+footer {
+    background: black;
+    height: 380px;
+    width: 100%;
+}
+
+.address-site {
+    display: inline-block;
+    width: 188px;
+    height: 111px;
+    margin-right: 125px;
+    float: left;
+}
+
+.white-foot-txt {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.up-txt {
+    text-transform: uppercase;
+}
+
+.foot-group1 {
+    display: inline-block;
+    width: 74px;
+    height: 63px;
+    margin-right: 94px;
+    float: left;
+}
+
+.foot-group2 {
+    display: inline-block;
+    width: 60px;
+    height: 82px;
+    margin-right: 105px;
+    float: left;
+}
+
+.foot-group3 {
+    display: inline-block;
+    width: 80px;
+    height: 57px;
+    margin-right: 80px;
+    float: left;
+}
+
+.foot-group4 {
+    display: inline-block;
+    width: 57px;
+    height: 61px;
+    float: left;
+}
 

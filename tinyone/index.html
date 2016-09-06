@@ -6,6 +6,8 @@
 	<title>TinyOne</title>
 	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
 	<header>
@@ -26,11 +28,11 @@
 					<p class="sub-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
 				</div>
 				<div class="btn-head-block"><a href=# class="get-start"><span>get start</span></a></div>
-				<div class="scroll"><a href="#" class="scroll-btn"><img src="img/.png" alt="down-arrow"></a></div>
+				<div class="scroll"><a href="#content" class="scroll-btn"><img src="img/.png" alt="down-arrow"></a></div>
 			</div>
 		</div>
 	</header>
-	<div class="content">
+	<div class="content" id="content">
 		<div class="content-width">
 			<div class="featured-grid">
 				<h3 class="content-head-txt">Tinyone features</h3>
@@ -186,7 +188,7 @@
 						<div class="portfolio-element">
 							<a href="#" class="img-port">
 								<img src="img/clipping-shape4.png">
-								<div class="look-eye">
+								<div class="look-eye" >
 									<img src="img/eye-icon.png" class="eye" width="22" height="15">
 									<span class="look">279</span>
 									<span class="time-port">07/03/14</span>
@@ -299,7 +301,7 @@
 				</div>
 				<div class="testimonial">
 					<div class="customer-face">
-						<img src="img/Ellipse-71.png" class="customer">
+						<img src="img/face.png" class="customer">
 						<p class="team-head-txt customer-head">John Doe</p>
 						<p class="team-underhead-txt customer-underheader">From Wordpress</p>
 					</div>
@@ -308,7 +310,86 @@
 					</div>
 				</div>
 			</div>
+			<div class="contact">
+				<h3 class="content-head-txt">Keep in touch with us</h3>
+				<p class="under-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+				<div class="contact-info">
+					<div class="info-block">
+						<img src="img/fa-map-marker.png" class="info-img">
+						<p class="info-header">Address</p>
+						<p class="info-txt">66, Dang Van ngu, Dong Da, Ha noi, Vietnam</p>
+					</div>
+					<div class="info-block">
+						<img src="img/fa-envelope.png" class="info-img">
+						<p class="info-header">E-mail</p>
+						<p class="info-txt">contact@halovietnam.com</p>
+					</div>
+					<div class="info-block">
+						<img src="img/fa-map-marker1.png" class="info-img">
+						<p class="info-header">Phone</p>
+						<p class="info-txt">+844 1234 56789</p>
+					</div>
+				</div>
+				<div class="contact-info-form">
+					<form action="" class="info-form" name="info-form" method="POST">
+						<input type="text" id="email" placeholder="Email" class="email-form">
+						<label for="email"></label>
+						<input type="text" id="fullname" placeholder="Full name" class="name-form">
+						<label for="fullname"></label>
+						<textarea id="message" placeholder="Message" class="message-area"></textarea>
+						<label for="message"></label>
+						<input type="button" id="send" value="send message" class="send-btn">
+						<label for="send"></label>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="subscribe">
+			<div class="content-width">
+				<div class="sub-block">
+					<h5 class="subs-header">Sign up for our newsletter</h5>
+					<p class="sub-under-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+					<form action="" id="submitform" method="POST" name="submit">
+						<input type="text" id="addemail" placeholder="Enter your email to update" name="submit-txt" class=add-email>
+						<label for="addemail"></label>
+						<input type="submit" id="submit" value="submit" class="submit-btn">
+						<label for="submit"></label>
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
+	<footer>
+		<div class="content-width">
+			<div class="address-site">
+				<p class="white-foot-txt up-txt">HALOVIETNAM LTD</p>
+				<p class="white-foot-txt">66, Dang Van ngu, Dong Da</p>
+				<p class="white-foot-txt">Hanoi, Vietnam</p>
+				<p class="white-foot-txt">contact@halovietnam.com</p>
+				<p class="white-foot-txt">+844 35149182</p>
+			</div>
+			<div class="foot-group1">
+				<p class="white-foot-txt">Examples</p>
+				<p class="white-foot-txt">Shop</p>
+				<p class="white-foot-txt">License</p>
+			</div>
+			<div class="foot-group2">
+				<p class="white-foot-txt">Contact</p>
+				<p class="white-foot-txt">About</p>
+				<p class="white-foot-txt">Privacy</p>
+				<p class="white-foot-txt">Terms</p>
+			</div>
+			<div class="foot-group3">
+				<p class="white-foot-txt">Download</p>
+				<p class="white-foot-txt">Support</p>
+				<p class="white-foot-txt">Documents</p>
+			</div>
+			<div class="foot-group4">
+				<p class="white-foot-txt">Media</p>
+				<p class="white-foot-txt">Blog</p>
+				<p class="white-foot-txt">Forums</p>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
