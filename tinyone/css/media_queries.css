@@ -1,0 +1,62 @@
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    
+    header {
+        width: 100%;
+    }
+
+    .content-width {
+        width: 700px;
+        margin: auto;
+    }
+
+    .top-header{
+    width: 700px;
+    padding-top: 25px;
+}
+
+.menu {
+    margin-right: 224px;
+}
+
+.logo-block {
+    margin-right: 154px;
+}
+
+.social-content > a {
+    margin-right: 10px;
+}
+
+.cover {
+    width: 450px;
+    height: 300px;
+    margin-top: 22vh;
+}
+
+.txt-content {
+    width: 450px;
+    margin-bottom: 8vh;
+}
+
+.main-txt {
+    width: 450px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.sub-header {
+    width: 450px;
+    font-size: 17px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.btn-head-block {
+    width: 200px;
+}
+
+.get-start {
+    width: 195px;
+}
+
+}
